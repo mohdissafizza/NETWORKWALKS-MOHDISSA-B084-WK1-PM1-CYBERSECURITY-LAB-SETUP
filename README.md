@@ -11,7 +11,7 @@ The lab is configured on a private virtual network so that additional machines c
 * **Static IP Address:** `10.0.0.2`
 * **Subnet Mask:** `255.255.255.0` (`/24`)
 * **Gateway:** `10.0.0.1`
-* **DNS Server:** `8.8.8.8`
+* **DNS Server:** `10.0.0.1`
 
 ## Step-by-Step Implementation
 1. **VirtualBox NAT Network Setup:** 
