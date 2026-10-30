@@ -30,6 +30,10 @@ The lab is configured on a private virtual network so that additional machines c
    * Took a clean snapshot of the virtual machine to allow quick rollbacks for future lab modules.
 <img width="975" height="212" alt="image" src="https://github.com/user-attachments/assets/b4eed058-a207-462c-b08a-22bf27a18e89" />
 
+## Connectivity Verification
+* **Internet Access Test:** Verified outbound internet connectivity by opening a web browser in Kali Linux and successfully loading Google (`google.com`), confirming that routing, gateway settings and DNS resolution are fully operational.
+<img width="975" height="517" alt="image" src="https://github.com/user-attachments/assets/d14c11b0-f8e4-42bf-9136-7a47327357a5" />
+
 
 ## Troubleshooting
 * **Issue:** Loss of internet connectivity after applying the static IP due to a NetworkManager timeout behavior.
