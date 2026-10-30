@@ -16,14 +16,20 @@ The lab is configured on a private virtual network so that additional machines c
 ## Step-by-Step Implementation
 1. **VirtualBox NAT Network Setup:** 
    * Created a custom `NatNetwork` (`10.0.0.0/24`) to isolate the virtual machine while allowing controlled external access.
+<img width="975" height="591" alt="image" src="https://github.com/user-attachments/assets/7a3b6936-0da8-49d7-a7bb-52b549c89c02" />
+
 2. **Kali Linux OS Installation:** 
    * Installed Kali Linux on a dedicated virtual hard drive, setting up user accounts and disk partitioning.
 3. **Network Adapter Configuration:** 
    * Enabled the network adapter and ensured the virtual cable was connected in VirtualBox settings.
 4. **Static IP Configuration:** 
    * Configured `Wired connection 1` with a static IP (`10.0.0.2`), gateway (`10.0.0.1`), and DNS (`10.0.0.1`).
+<img width="975" height="517" alt="image" src="https://github.com/user-attachments/assets/40d32dde-439e-4698-8bfd-14ef14f677d8" />
+
 5. **Environment Preservation:** 
    * Took a clean snapshot of the virtual machine to allow quick rollbacks for future lab modules.
+<img width="975" height="212" alt="image" src="https://github.com/user-attachments/assets/b4eed058-a207-462c-b08a-22bf27a18e89" />
+
 
 ## Troubleshooting
 * **Issue:** Loss of internet connectivity after applying the static IP due to a NetworkManager timeout behavior.
