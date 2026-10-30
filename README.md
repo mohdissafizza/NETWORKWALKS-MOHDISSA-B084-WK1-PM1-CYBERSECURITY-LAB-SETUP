@@ -21,7 +21,7 @@ The lab is configured on a private virtual network so that additional machines c
 3. **Network Adapter Configuration:** 
    * Enabled the network adapter and ensured the virtual cable was connected in VirtualBox settings.
 4. **Static IP Configuration:** 
-   * Configured `Wired connection 1` with a static IP (`10.0.0.2`), gateway (`10.0.0.1`), and DNS (`8.8.8.8`).
+   * Configured `Wired connection 1` with a static IP (`10.0.0.2`), gateway (`10.0.0.1`), and DNS (`10.0.0.1`).
 5. **Environment Preservation:** 
    * Took a clean snapshot of the virtual machine to allow quick rollbacks for future lab modules.
 
